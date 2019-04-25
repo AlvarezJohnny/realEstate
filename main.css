@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+
+}
+
+#navbar {
+  background: #0E0E0E;
+  text-align: center;
+  padding-bottom: 0.5%;
+}
+
+#navbar img {
+  margin-bottom: 1.3%;
+  width: 12%;
+}
+
+#navbar ul li {
+  display: inline;
+  padding: 0 1.5%;
+
+}
+#navbar ul li a {
+  color: #958881;
+  text-decoration: none;
+  font-size: 20 px;
+
+}
+
+.image-grid {
+  display: grid;
+
+}
+
+.image-grid div {
+  background-image: url('http://lorempixel.com/400/200/sports');
+  width: 400px;
+  height: 200px;
+}
