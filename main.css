@@ -3,6 +3,10 @@ body {
 
 }
 
+p {
+  font-size: 1em;
+}
+
 #navbar {
   background: #0E0E0E;
   text-align: center;
@@ -65,10 +69,40 @@ body {
 
 .image-grid {
   display: grid;
+  grid-template: 180px 180px / 280px 280px;
+  grid-gap: 2%;
 }
 
 .image-grid div {
   background-image: url('http://lorempixel.com/400/200/sports');
-  width: 400px;
-  height: 200px;
+  background-size: cover;
+}
+
+.info-section {
+  margin-top: 3%;
+}
+
+.info-header {
+  text-align: center;
+}
+
+.info-grid {
+  display: grid;
+  justify-content: center;
+  grid-template: 300px / 35% 30%;
+  grid-gap: 3.8%
+  text-align: center;
+}
+
+.info-grid p {
+  line-height: 1.6;
+}
+
+.info-grid div button {
+  margin-top: 21%;
+  background: rgba(0,0,0,0)
+  border-color: #fff
+  border: 2px solid #fff
+  padding: 4% 8%;
+
 }
