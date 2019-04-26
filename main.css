@@ -67,6 +67,26 @@ p {
   padding: 1% 5% 3% 5%;
 }
 
+.search-form {
+  text-align: left;
+}
+
+.search-form label {
+  color: whitesmoke;
+  font-size: 18px;
+}
+
+.seach-form input {
+  padding: 5px 10px 5px 5px;
+}
+
+.search-form input[type='text'] {
+  width: 80%;
+}
+
+.search-form input[type='submit'] {
+  width: 15%;
+}
 .image-grid {
   display: grid;
   grid-template: 180px 180px / 280px 280px;
@@ -104,5 +124,5 @@ p {
   border-color: #fff
   border: 2px solid #fff
   padding: 4% 8%;
-
+  text-transform: uppercase;
 }
